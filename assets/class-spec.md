@@ -67,7 +67,7 @@ class SleepingState extends State {
 class DeathState extends State {
 }
 
-State --* Animal : current state
+State --* Animal : current currentState
 GenusSpecies --* Animal: genus species
 GenusSpecies "n" --* Animal: devours
 
